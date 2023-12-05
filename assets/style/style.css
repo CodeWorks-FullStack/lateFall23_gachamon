@@ -1,0 +1,28 @@
+/* BASIC STYLES HERE */
+
+.bg-jungle{
+  background-image: url(https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+.turn-knob{
+transform: rotate(0deg);
+transition: 1.5s ease;
+}
+
+.turn-knob:active{
+  transform: rotate(300deg);
+}
+
+.normal{
+  filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.582));
+}
+
+.shiny{
+  filter: drop-shadow(0px 3px 10px rgb(235, 190, 11)) brightness(1.2) hue-rotate(25deg);
+}
+
+.negative{
+ filter: drop-shadow(0px 3px 10px rgb(235, 11, 142)) brightness(1.2) invert(1);
+}
